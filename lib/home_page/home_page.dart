@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: ColorConstants.primaryColor,
       appBar: AppBar(
-        leading: const Icon(Icons.arrow_back_ios_new_outlined),
+        leading: const Icon(Icons.arrow_back),
         title: const Text('Welcome',style: TextStyle(color: Colors.green,
             fontSize: 25,fontWeight: FontWeight.bold),),
       ),
